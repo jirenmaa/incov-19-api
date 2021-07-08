@@ -1,0 +1,4 @@
+{
+    // change to your local path or python environment path
+    "python.pythonPath": "C:\\Python38\\Scripts\\python.exe"
+}
