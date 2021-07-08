@@ -7,4 +7,4 @@ gunicorn==20.1.0
 # using this for the alternative
 # git+https://github.com/gaojiuli/gain/
 # if u are using linux
-uviloop==0.15.2
+uvloop==0.15.2
