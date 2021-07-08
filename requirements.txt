@@ -5,4 +5,6 @@ fake-useragent==0.1.11
 gunicorn==20.1.0
 # uvloop cannot running in windows, and for that
 # using this for the alternative
-git+https://github.com/gaojiuli/gain/
+# git+https://github.com/gaojiuli/gain/
+# if u are using linux
+uviloop==0.15.2
