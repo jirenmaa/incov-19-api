@@ -12,7 +12,8 @@ from aggregator import (
 app = FastAPI()
 origins = [
     "http://localhost:3000", # local
-    "https://incov-19.netlify.app/", # main website
+    "https://incov-19.netlify.app", # main website
+    "https://api-incov-19.herokuapp.com"
 ]
 
 app.add_middleware(
