@@ -1,10 +1,3 @@
-uvicorn==0.12.2
-beautifulsoup4==4.9.1
-fastapi==0.61.2
-fake-useragent==0.1.11
-gunicorn==20.1.0
-# uvloop cannot running in windows, and for that
-# using this for the alternative
-# git+https://github.com/gaojiuli/gain/
-# if u are using linux
-uvloop==0.15.2
+# This file is expected by Heroku.
+
+-r requirements/production.txt

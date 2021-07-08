@@ -1,0 +1,8 @@
+-r base.txt
+
+# uvloop cannot running in windows, and for that
+# using this for the alternative
+# git+https://github.com/gaojiuli/gain/
+
+# if u are using linux
+uvloop==0.15.2
